@@ -1,0 +1,60 @@
+$font-family_1: cursive;
+$margin:20px;
+
+@import "colores";
+
+
+header {
+    text-align: center;
+    font-family: cursive;
+    font-size: 30pt;
+    padding: 5pt;
+    }
+
+
+nav {
+    font-weight: bold;    
+    text-align: center;
+    font-family: $font-family_1;
+
+    li {
+        display: inline-block;
+        
+
+        a {
+            text-decoration: none;
+            color: black;
+            margin: 15px;
+            font-size: 1.5rem;
+
+            &:hover {
+                background-color: #fff0f6;
+            }
+            
+        }
+    }
+}
+
+section {
+    margin-top: $margin;
+}
+
+
+
+
+
+.presentacion {
+	text-align: center;
+	font-size: 15pt;
+	font-family: $font-family_1;
+	margin: 10pt;
+}
+.retrato {
+	text-align: center;
+}
+
+.item4 {
+	font-size: 15pt;
+	text-align: center;
+}
+
